@@ -1,7 +1,7 @@
 package isp;
 
 public class Motorcycle implements VehicleInterface{
-    // Can be implemented @Override
+// Can be implemented @Override
 public void drive() {
 }
 
@@ -15,10 +15,5 @@ public void stop() {
 public void refuel() {
 }
 
-
-// Can not be implemented karena motor tidak punya pintu 
-@Override
-public void openDoors() {
-}
 
 }
