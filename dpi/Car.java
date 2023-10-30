@@ -2,13 +2,14 @@ package dpi;
 
 
 class Car {
-private final Engine engine;
+    private final EngineInterface engine;
 
 
-public Car(Engine engine) { this.engine = engine;
-}
-
-
-void start() { engine.start();
-}
+    public Car(EngineInterface engine) { this.engine = engine;
+    }
+    
+    
+    void start() { engine.start();
+    }
+    
 }
