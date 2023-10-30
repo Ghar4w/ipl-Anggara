@@ -1,6 +1,6 @@
 package lsp;
 import java.sql.Date; 
-public class Vegetable extends Product{
+public class Vegetable extends FoodProduct{
     @Override
 String getName() { 
     return "Broccoli";
